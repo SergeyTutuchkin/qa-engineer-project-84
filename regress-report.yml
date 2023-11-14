@@ -101,15 +101,15 @@ test-cases:
     status: pass
 
   - summary: |
-      Имитация медленного сетевого соединения с насторойкой mid-tier mobile
+      Имитация медленного сетевого соединения с настройкой mid-tier mobile
     status: pass
 
   - summary: |
-      Имитация медленного сетевого соединения с насторойкой low-end mobile
+      Имитация медленного сетевого соединения с настройкой low-end mobile
     status: pass
 
   - summary: |
-      Имитация медленного сетевого соединения с насторойкой offline
+      Имитация медленного сетевого соединения с настройкой offline
     status: pass
 
   - summary: |
@@ -125,7 +125,7 @@ test-cases:
     status: pass
 
   - summary: |
-      Листать страницы интернет-магазина с товарами в верхней части страницы нажиая на кнопку "Предыдуща"
+      Листать страницы интернет-магазина с товарами в верхней части страницы нажимая на кнопку "Предыдуща"
     status: pass
 
   - summary: |
@@ -178,7 +178,7 @@ bugreports:
       https://github.com/SergeyTutuchkin/qa-engineer-project-84/blob/main/%D0%9F%D1%80%D0%B8%20%D0%B8%D0%B7%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD%D0%B8%D0%B8%20%D1%8F%D0%B7%D1%8B%D0%BA%D0%B0%20%D0%BD%D0%B0%20%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%BA%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D0%B9%20%D0%BD%D0%B5%20%D0%BF%D1%80%D0%B5%D0%B2%D0%BE%D0%B4%D1%8F%D1%82%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA.png
     steps-to-reproduce: |
       1. Перейти на главную страницу интернет-магазина https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
-      2. Сменить ярык страници на русский
+      2. Сменить язык страницы на русский
       3. Перейти во вкладку "Категории"
     expected-result: |
       При смене языка на русский название категорий товаров переводится на русский язык
