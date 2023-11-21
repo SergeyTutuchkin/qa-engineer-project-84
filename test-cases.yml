@@ -7,14 +7,14 @@
     Открыта страница интернет-магазина
   test-data: |
     empty
-  steps: |
+  steps:
     - Перейти на главную страницу интернет-магазина https://hexlet-products-store.vercel.app/
     - Перейти в поисковую строку
     - В поисковой строке ввести название искомого товара
   expected-result: |
    На странице интернет-магазина выводится искомый товар
 
-- summary: |
+- summary:
     Поиск товара по категориям
   requirement: |
     Выбрав искомую категорию товар выдается список искомых товаров
@@ -22,7 +22,7 @@
     Открыта страница интернет-магазина
   test-data: |
     empty
-  steps: |
+  steps:
     - Перейти на главную страницу интернет-магазина https://hexlet-products-store.vercel.app/
     - В левой части появившейся страницы интернет-магазина нажать на слово "Категории"
     - В появившемся списке категорий товаров выбрать категорию товаров
@@ -37,7 +37,7 @@
     Открыта страница интернет-магазина
   test-data: |
     empty
-  steps: |
+  steps:
     - Перейти на главную страницу интернет-магазина https://hexlet-products-store.vercel.app/
     - В левой части появившейся страницы интернет-магазина нажать на слово "Категории"
     - В появившемся списке категорий товаров выбрать категорию товаров
@@ -54,7 +54,7 @@
     Открыта страница интернет-магазина
   test-data: |
     empty
-  steps: |
+  steps:
     - Перейти на главную страницу интернет-магазина https://hexlet-products-store.vercel.app/
     - В левой части появившейся страницы интернет-магазина нажать на слово "Категории"
     - В появившемся списке категорий товаров выбрать категорию товаров
@@ -71,7 +71,7 @@
     Открыта страница интернет-магазина
   test-data: |
     empty
-  steps: |
+  steps:
     - Перейти на главную страницу интернет-магазина https://hexlet-products-store.vercel.app/
     - В левой части появившейся страницы интернет-магазина нажать на слово "Категории"
     - В появившемся списке категорий товаров выбрать категорию товаров
@@ -88,7 +88,7 @@
     Открыта страница интернет-магазина в последней версии браузера Googl Chrome
   test-data: |
     empty
-  steps: |
+  steps:
     - Откройте последнюю версию браузер Googl Chrome
     - Перейти на главную страницу интернет-магазина https://hexlet-products-store.vercel.app/
   expected-result: |
@@ -102,7 +102,7 @@
     Открыта страница интернет-магазина в последней версии браузера Firefox
   test-data: |
     empty
-  steps: |
+  steps:
     - Откройте последнюю версию браузер Firefox
     - Перейти на главную страницу интернет-магазина https://hexlet-products-store.vercel.app/
   expected-result: |
@@ -116,7 +116,7 @@
     Открыта страница интернет-магазина в последней версии браузера Opera
   test-data: |
     empty
-  steps: |
+  steps:
     - Откройте последнюю версию браузер Opera
     - Перейти на главную страницу интернет-магазина https://hexlet-products-store.vercel.app/
   expected-result: |
@@ -130,7 +130,7 @@
     Открыта страница интернет-магазина в последней версии браузера Safari
   test-data: |
     empty
-  steps: |
+  steps:
     - Откройте последнюю версию браузер Safari
     - Перейти на главную страницу интернет-магазина https://hexlet-products-store.vercel.app/
   expected-result: |
@@ -144,7 +144,7 @@
     Открыта страница интернет-магазина в последней версии браузера Internet Exploreri
   test-data: |
     empty
-  steps: |
+  steps:
     - Откройте последнюю версию браузер Internet Explorer
     - Перейти на главную страницу интернет-магазина https://hexlet-products-store.vercel.app/
   expected-result: |
@@ -158,7 +158,7 @@
     Открыта страница интернет-магазина в последней версии браузера Edge
   test-data: |
     empty
-  steps: |
+  steps:
     - Откройте последнюю версию браузер Edge
     - Перейти на главную страницу интернет-магазина https://hexlet-products-store.vercel.app/
   expected-result: |
@@ -172,7 +172,7 @@
     Открыта страница интернет-магазина
   test-data: |
     empty
-  steps: |
+  steps:
     - Перейти на главную страницу интернет-магазина https://hexlet-products-store.vercel.app/
     - Нажать на товар
   expected-result: |
@@ -186,7 +186,7 @@
     Открыта страница интернет-магазина
   test-data: |
     empty
-  steps: |
+  steps:
     - Перейти на главную страницу интернет-магазина https://hexlet-products-store.vercel.app/
     - Нажать на товар
     - Нажать на фото товара
@@ -201,7 +201,7 @@
     Открыта страница интернет-магазина
   test-data: |
     empty
-  steps: |
+  steps:
     - Перейти на главную страницу интернет-магазина https://hexlet-products-store.vercel.app/
     - Нажать на товар
   expected-result: |
@@ -215,7 +215,7 @@
     Открыта страница интернет-магазина
   test-data: |
     empty
-  steps: |
+  steps:
     - Перейти на главную страницу интернет-магазина https://hexlet-products-store.vercel.app/
     - Нажать на товар
     - Нажать на кнопку "Добавить товар"
@@ -231,7 +231,7 @@
     Открыта страница интернет-магазина
   test-data: |
     empty
-  steps: |
+  steps:
     - Перейти на главную страницу интернет-магазина https://hexlet-products-store.vercel.app/
     - Нажать в верхнем правом углу страницы интернет-магазина на слово "Корзина"
     - Перейти в корзину
@@ -246,7 +246,7 @@
     Открыта страница интернет-магазина
   test-data: |
     empty
-  steps: |
+  steps:
     - Перейти на главную страницу интернет-магазина https://hexlet-products-store.vercel.app/
     - Добавить товары в корзину
     - Перейти в корзину
@@ -262,7 +262,7 @@
     Открыта страница интернет-магазина
   test-data: |
     empty
-  steps: |
+  steps:
     - Перейти на главную страницу интернет-магазина https://hexlet-products-store.vercel.app/
     - Добавить товары в корзину
     - Перейти в корзину
@@ -278,7 +278,7 @@
     Открыта страница интернет-магазина
   test-data: |
     empty
-  steps: |
+  steps:
     - Перейти на главную страницу интернет-магазина https://hexlet-products-store.vercel.app/
     - Добавить товары в корзину
     - Перейти в корзину
@@ -294,7 +294,7 @@
     Добавлен товар в корзину и открыта страница корзины
   test-data: |
     empty
-  steps: |
+  steps:
     - Перейти в корзину
     - Открыть Devtools
     - Перейти во вкладку Network
@@ -310,7 +310,7 @@
     Открыта страница интернет-магазина
   test-data: |
     empty
-  steps: |
+  steps:
     - Перейти на главную страницу интернет-магазина https://hexlet-products-store.vercel.app/
     - Открыть Devtools
     - В правом верхнем углу панели Devtools нажать на кнопку "Toggle device toolbar"
@@ -327,7 +327,7 @@
     Открыта страница интернет-магазина
   test-data: |
     empty
-  steps: |
+  steps:
     - Перейти на главную страницу интернет-магазина https://hexlet-products-store.vercel.app/
     - Открыть Devtools
     - В правом верхнем углу панели Devtools нажать на кнопку "Toggle device toolbar"
@@ -344,7 +344,7 @@
     Открыта страница интернет-магазина
   test-data: |
     empty
-  steps: |
+  steps:
     - Перейти на главную страницу интернет-магазина https://hexlet-products-store.vercel.app/
     - Открыть Devtools
     - В правом верхнем углу панели Devtools нажать на кнопку "Toggle device toolbar"
@@ -361,7 +361,7 @@
     Открыта страница интернет-магазина
   test-data: |
     empty
-  steps: |
+  steps:
     - Перейти на главную страницу интернет-магазина https://hexlet-products-store.vercel.app/
     - Открыть Devtools
     - В правом верхнем углу панели Devtools нажать на кнопку "Toggle device toolbar"
@@ -378,7 +378,7 @@
     Открыта страница интернет-магазина
   test-data: |
     empty
-  steps: |
+  steps:
     - Перейти на главную страницу интернет-магазина https://hexlet-products-store.vercel.app/
     - Открыть Devtools
     - В правом верхнем углу панели Devtools нажать на кнопку "Toggle device toolbar"
@@ -395,7 +395,7 @@
     Открыта страница интернет-магазина
   test-data: |
     empty
-  steps: |
+  steps:
     - Перейти на главную страницу интернет-магазина https://hexlet-products-store.vercel.app/
     - Открыть Devtools
     - В правом верхнем углу панели Devtools нажать на кнопку "Toggle device toolbar"
@@ -412,7 +412,7 @@
     Открыта страница интернет-магазина
   test-data: |
     empty
-  steps: |
+  steps:
     - Перейти на главную страницу интернет-магазина https://hexlet-products-store.vercel.app/
     - Открыть Devtools
     - В правом верхнем углу панели Devtools нажать на кнопку "Toggle device toolbar"
@@ -429,7 +429,7 @@
     Открыта страница интернет-магазина
   test-data: |
     empty
-  steps: |
+  steps:
     - Перейти на главную страницу интернет-магазина https://hexlet-products-store.vercel.app/
     - Открыть Devtools
     - В правом верхнем углу панели Devtools нажать на кнопку "Toggle device toolbar"
@@ -446,7 +446,7 @@
     Открыта страница интернет-магазина
   test-data: |
     empty
-  steps: |
+  steps:
     - Перейти на главную страницу интернет-магазина https://hexlet-products-store.vercel.app/
     - Нажать в верхнем правом углу на слово "язык"
     - Выбрать из списка языков английский язык
@@ -461,7 +461,7 @@
     Открыта страница интернет-магазина
   test-data: |
     empty
-  steps: |
+  steps:
     - Перейти на главную страницу интернет-магазина https://hexlet-products-store.vercel.app/
     - Нажать в верхнем правом углу на слово "язык"
     - Выбрать из списка языков русский язык
@@ -476,7 +476,7 @@
     Открыта страница интернет-магазина
   test-data: |
     empty
-  steps: |
+  steps:
     - Перейти на главную страницу интернет-магазина https://hexlet-products-store.vercel.app/
     - Нажать в верхней части страницы на кнопку "Следующая"
   expected-result: |
@@ -490,7 +490,7 @@
     Открыта страница интернет-магазина
   test-data: |
     empty
-  steps: |
+  steps:
     - Перейти на главную страницу интернет-магазина https://hexlet-products-store.vercel.app/
     - Нажать в верхней части страницы на кнопку "Предыдущая"
   expected-result: |
@@ -504,7 +504,7 @@
     Открыта страница интернет-магазина
   test-data: |
     empty
-  steps: |
+  steps:
     - Перейти на главную страницу интернет-магазина https://hexlet-products-store.vercel.app/
     - Нажать в нижней части страницы на кнопку "Следующая"
   expected-result: |
@@ -518,7 +518,7 @@
     Открыта страница интернет-магазина
   test-data: |
     empty
-  steps: |
+  steps:
     - Перейти на главную страницу интернет-магазина https://hexlet-products-store.vercel.app/
     - Нажать в нижней части страницы на кнопку "Предыдущая"
   expected-result: |
