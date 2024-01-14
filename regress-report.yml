@@ -21,27 +21,13 @@ test-cases:
     status: pass
 
   - summary: |
-      Проверка работы интернет-магазина в последней версии браузера Googl Chrome
-    status: pass
-
-  - summary: |
-      Проверка работы интернет-магазина в последней версии браузера Firefox
-    status: pass
-
-  - summary: |
-      Проверка работы интернет-магазина в последней версии браузера Opera
-    status: pass
-
-  - summary: |
-      Проверка работы интернет-магазина в последней версии браузера Safari
-    status: pass
-
-  - summary: |
-      Проверка работы интернет-магазина в последней версии браузера Internet Explorer
-    status: pass
-
-  - summary: |
-      Проверка работы интернет-магазина в последней версии браузера Edge
+      Проверка работы интернет-магазина в последних версиях браузеров:
+      Googl Chrome
+      Firefox
+      Opera
+      Safari
+      Internet Explorer
+      Edge
     status: pass
 
   - summary: |
@@ -77,31 +63,18 @@ test-cases:
     status: fail
 
   - summary: |
-      Доступ в интернет-магазин на устройстве Ipad Mini
+      Доступ в интернет-магазин на устройстве:
+      Ipad Mini
+      Iphone SE
+      Iphone XR
+      Samsung galaxy S8+
+      Galaxy Foid
     status: pass
 
   - summary: |
-      Доступ в интернет-магазин на устройстве Iphone SE
-    status: pass
-
-  - summary: |
-      Доступ в интернет-магазин на устройстве Iphone XR
-    status: pass
-
-  - summary: |
-      Доступ в интернет-магазин на устройстве Samsung galaxy S8+
-    status: pass
-
-  - summary: |
-      Доступ в интернет-магазин на устройстве Galaxy Foid
-    status: pass
-
-  - summary: |
-      Имитация медленного сетевого соединения с настройкой mid-tier mobile
-    status: pass
-
-  - summary: |
-      Имитация медленного сетевого соединения с настройкой low-end mobile
+      Имитация медленного сетевого соединения с выбранной настойкой:
+      mid-tier mobile
+      low-end mobile
     status: pass
 
   - summary: |
@@ -117,7 +90,7 @@ test-cases:
     status: fail
 
   - summary: |
-      Переключение страницы интернет-магазина нажимая на кнопку пагинации "Следующа" в верхней части страницы
+      Переключение страницы интернет-магазина нажимая на кнопку пагинации "Следующая" в верхней части страницы
     status: pass
 
   - summary: |
@@ -125,7 +98,7 @@ test-cases:
     status: pass
 
   - summary: |
-      Переключение страницы интернет-магазина нажимая на кнопку пагинации "Следующа" в нижней части страницы
+      Переключение страницы интернет-магазина нажимая на кнопку пагинации "Следующая" в нижней части страницы
     status: pass
 
   - summary: |
